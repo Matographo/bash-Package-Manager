@@ -13,7 +13,7 @@ class Bash : public PackageManager {
 private:
     PackageManagerToolkit * toolkit;
     const std::string progLang = "bash";
-    const std::string gitRepo = "Matographo/bash-databases";
+    const std::string gitRepo = "Matographo/bash-database";
     
 
     int createNewVersion(Package * pkg, PackagePaths * pkgPath);
