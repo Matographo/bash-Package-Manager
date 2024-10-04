@@ -131,6 +131,7 @@ int Bash::createSetup() {
     }
     
     std::string shell = getenv("SHELL");
+    shell = shell.substr(shell.find_last_of("/") + 1);
     std::string shellrc = std::string(getenv("HOME")) + "/." + shell + "rc";
     
     std::string command = "source " + libraryPath;
