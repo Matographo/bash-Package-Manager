@@ -1,5 +1,5 @@
-#ifndef CPPP_H
-#define CPPP_H
+#ifndef BASH_H
+#define BASH_H
 
 #include <filesystem>
 #include <iostream>
